@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prawda Czy Wyzwanie</title>
+	<link rel="shortcut icon" href=".\prawdaCzyWyzwanieIkona.png">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="box">
+		<header>
+			<h1>Prawda Czy Wyzwanie?</h1>
+		</header>
+
+		<nav>
+			<h2>Gracze:</h2>
+			<div id="players"></div>
+			<div id="playersList"></div>
+		</nav>
+
+		<main>
+			<div id="start">
+				<p>Podaj ilość graczy:<input type="number" id="quantityOfPlayers"></p>
+				<input type="button" id="enterQuan" value="Zatwierdź">
+				<div id="error"></div>
+				<div id="names"></div>
+				<div id="namesButton"><input type='button' value='Zatwierdź' id='setNames'></div>
+			</div>
+			<div id="game">
+				<div id="playerTurn"></div>
+				<div id="buttons">
+					<input type="button" id="wyzwanie" value="wyzwanie">
+					<input type="button" id="pytanie" value="pytanie">
+				</div>
+				<p><div id="PW"></div></p>
+				<div id="buttonsDone">
+					<input type="button" id="zalicz" value="Zalicz zadanie">
+					<input type="button" id="niezalicz" value="Nie zaliczaj zadania">
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="author">
+				<p><b>Autorzy:</b></p>
+			</div>
+			<div class="author1">
+				<p>Pytania: <b>Justyna Bereda</b></p>
+			</div>
+			<div class="author2">
+				<p>Programował: <b>Wiktor Wewersajtys</b></p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="./script.js"></script>
+<script type="text/javascript" src="./questz.pcw"></script>

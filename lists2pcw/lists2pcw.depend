@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1624791903 source:c:\users\wiktor\desktop\fromoldlaptop\gra\lists2pcw\lists2pcw\main.cpp
+	<iostream>
+	<fstream>
+
